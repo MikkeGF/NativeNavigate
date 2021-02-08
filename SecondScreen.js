@@ -7,8 +7,6 @@ const StyledView = styled.View`
 `;
 
 
-
-
 export default function SecondScreen({ route, navigation }) {
     const close = () => {
         navigation.goBack(null);
